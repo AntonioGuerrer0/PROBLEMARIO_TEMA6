@@ -4,8 +4,6 @@ Realizado por:
 <header> <font color = "red" size="+1" font face = "aharoni">
                 <nav class="navegacion">
                     <ul class="Indice">
-                       <li> <a href="#Descripción"> Descripción del Problemario </a> <br> </li>
-                        <li> <a href="#Sobre la materia"> Sobre la materia </a> <br> </li>
                             <ul class="subindice"> 
                                 <li> <a href="#Competencia de la Asignatura"> Competencia de la Asignatura </a> </li>
                                 <li> <a href="#Competencia del tema"> Competencia del TEMA </a> </li>
