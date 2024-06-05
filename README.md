@@ -741,7 +741,7 @@ El Método de la Cuadratura Gaussiana es una técnica de integración numérica 
 
 ![Captura de pantalla 2024-05-30 225644](https://github.com/AntonioGuerrer0/PROBLEMARIO_TEMA-4/assets/161759650/62981968-cc4d-4ef0-a468-d427d4ac9d6e)
 
-<h2 align = "center"> <font font face = "forte">  <a name="Descripcion"> Descripción </a></h2>
+<h2 align = "center"> <font font face = "forte">   Descripción </a></h2>
 La interpolación en métodos numéricos es una técnica utilizada para estimar valores desconocidos de una función a partir de un conjunto de valores conocidos. Es una herramienta fundamental en el análisis numérico y se emplea en diversas áreas como la ingeniería, la física y la economía, donde es necesario trabajar con datos discretos o aproximar funciones.  
 
   Existen varios métodos de interpolación, cada uno con sus propias características y aplicaciones. Algunos de los más comunes son:
@@ -872,7 +872,45 @@ La interpolación de Lagrange es un método matemático para encontrar un polino
 La interpolación de Newton es un método utilizado en matemáticas y análisis numérico para encontrar un polinomio que pase a través de un conjunto de puntos dados. Este método fue desarrollado por Isaac Newton y es una alternativa a la interpolación de Lagrange.   
 
 <h5> <font font face = "arial"> <b> <i> Ejemplo en código. </i> </b> </h5>
-  <h2 align = "center"> <font font face = "forte">  <a name="Descricpcion"> Descripción </a></h2>
+
+      package Newton;
+      
+      public class Newton_3 {
+      
+          public static double interpolate(double[] x, double[] y, double xTarget) {
+              double yTarget = y[0];
+              for (int i = 0; i < x.length - 1; i++) {
+                  if (x[i] <= xTarget && x[i + 1] > xTarget) {
+                      double h = x[i + 1] - x[i];
+                      double k = (xTarget - x[i]) / h;
+                      double y0 = y[i];
+                      double y1 = y[i + 1];
+                      yTarget = y0 + k * (y1 - y0);
+                      break;
+                  }
+              }
+              return yTarget;
+          }
+      
+          public static void main(String[] args) {
+              double[] x = {0.0, 1.0, 2.0, 3.0, 4.0};
+              double[] y = {0.0, 1.0, 4.0, 9.0, 16.0};
+      
+              double xTarget = 2.5;
+      
+              double yTarget = interpolate(x, y, xTarget);
+      
+              System.out.println("El valor interpolado de y para x = " + xTarget + " es " + yTarget);
+          }
+      }
+<h5> <font font face = "arial"> <b> <i> Ejecución. </i> </b> </h5>
+
+  
+![Captura de pantalla 2024-06-05 082150](https://github.com/AntonioGuerrer0/PROBLEMARIO_TEMA6/assets/161759650/ee0cae9e-c6f5-4b39-b6fe-caf9eaaa0291)
+
+
+  
+  <h2 align = "center"> <font font face = "forte">  Descripción </a></h2>
 Los métodos de Euler, Taylor y Runge-Kutta son herramientas numéricas para resolver ecuaciones diferenciales. El método de Euler es simple pero puede ser inestable, el método de Taylor es preciso pero no se utiliza comúnmente, y el método de Runge-Kutta es preciso y estable, siendo especialmente popular el método de Runge-Kutta de orden 4.
   
 Existen varios métodos para resolver ecuaciones diferenciales, cada uno con sus propias características y aplicaciones. Algunos de los más comunes son:
@@ -997,29 +1035,4 @@ public class Ejercicio_4 {
 
 ![Captura de pantalla 2024-05-29 122131](https://github.com/AntonioGuerrer0/T6----E2----Problemario/assets/161759650/ec6adfeb-834d-4b38-95d3-2826585b6fc5)
 
-    public static double interpolate(double[] x, double[] y, double xTarget) {
-        double yTarget = y[0];
-        for (int i = 0; i < x.length - 1; i++) {
-            if (x[i] <= xTarget && x[i + 1] > xTarget) {
-                double h = x[i + 1] - x[i];
-                double k = (xTarget - x[i]) / h;
-                double y0 = y[i];
-                double y1 = y[i + 1];
-                yTarget = y0 + k * (y1 - y0);
-                break;
-            }
-        }
-        return yTarget;
-    }
-
-    public static void main(String[] args) {
-        double[] x = {10.0, 20.0, 30.0, 40.0, 50.0};
-        double[] y = {15.0, 25.0, 35.0, 45.0, 55.0};
-
-        double xTarget = 25.0;
-
-        double yTarget = interpolate(x, y, xTarget);
-
-        System.out.println("El valor interpolado de y para x = " + xTarget + " es " + yTarget);
-    }
-}
+ 
