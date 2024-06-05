@@ -14,7 +14,6 @@ Realizado por:
                                 <li> <a href="#Gauss"> Gauss-Jordan </a> </li>
                                 <li> <a href="#Seidel"> Gauss-Seidel </a> </li> 
                                 <li> <a href="#Jacobi"> Método de Jacobi </a> </li> 
-                              <li> <a href = "#Descripción"> Descripción </a> <br> </li>
         <li> <a href = "#Temario"> Temario </a> <br> </li>
         <li> <a href = "#Métodos"> Métodos </a> <br> </li>
           <ul class = "subindice">
@@ -22,17 +21,17 @@ Realizado por:
               <li> <a href="# Método de Simpson 1/3 "> Método de Simpson 1/3 </a> <br> </li>
               <li> <a href="# Método de Simpson 3/8"> Método de Simpson 3/8 </a> <br> </li> 
               <li> <a href="# Método de la Cuadratura Gaussiana "> Método de la Cuadratura Gaussiana </a> <br> </li> 
-                            </ul>
-                    </ul>
-                        <li> <a href="#Lineal"> Interpolación lineal (5 ejemplos). </a> </li>
+            <li> <a href="#Lineal"> Interpolación lineal (5 ejemplos). </a> </li>
                                 <li> <a href="#cuadratica"> Interpolación cuadratica (1 ejemplo). </a> </li>
                                 <li> <a href="#langrage"> Interpolación langrage (5 ejemplos). </a> </li> 
                                 <li> <a href="#Newton"> Interpolación de newton (5 ejemplos). </a> </li> 
                        <li> <a href="#Euler"> Euler (4 ejemplos). </a> </li>
                                 <li> <a href="#Runge-Kutta"> Runge-Kutta (4 ejemplos). </a> </li>
                                 <li> <a href="#Taylor"> Taylor (4 ejemplos). </a> </li> 
-                </nav>
-            </font> </header>
+                            </ul>
+                    </ul>
+                         </nav>
+                    </font> </header>
 
 # Descripción
 En este documento vamos a ver varios ejercicios sobre los distintos metodos como lo son:
