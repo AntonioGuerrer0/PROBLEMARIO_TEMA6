@@ -30,9 +30,9 @@ Realizado por:
                                 <li> <a href="#cuadratica"> Interpolación cuadratica (1 ejemplo). </a> </li>
                                 <li> <a href="#langrage"> Interpolación langrage (5 ejemplos). </a> </li> 
                                 <li> <a href="#Newton"> Interpolación de newton (5 ejemplos). </a> </li> 
-                       <li> <a href="#Lineal"> Euler (4 ejemplos). </a> </li>
-                                <li> <a href="#Cuadratica"> Runge-Kutta (4 ejemplos). </a> </li>
-                                <li> <a href="#Langrage"> Taylor (4 ejemplos). </a> </li> 
+                       <li> <a href="#Euler"> Euler (4 ejemplos). </a> </li>
+                                <li> <a href="#Runge-Kutta"> Runge-Kutta (4 ejemplos). </a> </li>
+                                <li> <a href="#Taylor"> Taylor (4 ejemplos). </a> </li> 
                 </nav>
             </font> </header>
 
@@ -884,7 +884,7 @@ Existen varios métodos para resolver ecuaciones diferenciales, cada uno con sus
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<h2 align = "center"> <font font face = "forte">  <a name="Lineal"> 1. Euler </a></h2>
+  <h2 align = "center"> <font font face = "forte">  <a name="Euler"> 1. Euler </a></h2>
 
 <h3> <font font face = "arial"> DESCRIPCIÓN: </h3>
 
@@ -919,7 +919,7 @@ El método de Euler es un procedimiento numérico utilizado para aproximar soluc
 ![Captura de pantalla 2024-05-29 122105](https://github.com/AntonioGuerrer0/T6----E2----Problemario/assets/161759650/3f70e622-1d9b-45c2-bf8b-35bb29f10d23)
 
 
-<h2 align = "center"> <font font face = "forte">  <a name="Cuadratica"> 2.- Runge-Kutta </a></h2>
+<h2 align = "center"> <font font face = "forte">  <a name="Runge-Kutta"> 2.- Runge-Kutta </a></h2>
 
 <h3> <font font face = "arial"> DESCRIPCIÓN: </h3>
 
@@ -960,7 +960,7 @@ El método de Runge-Kutta es una familia de métodos numéricos para resolver ec
 
  
 
-<h2 align = "center"> <font font face = "forte"> <a name="Langrage">  3.- Taylor </a></h2>
+<h2 align = "center"> <font font face = "forte"> <a name="Taylor">  3.- Taylor </a></h2>
 
 <h3> <font font face = "arial"> DESCRIPCIÓN: </h3>
 
