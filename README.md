@@ -9,11 +9,11 @@ Realizado por:
                                 <li> <a href="#Competencia del tema"> Competencia del TEMA </a> </li>
                             </ul>
      <li> <a href="#Métodos numéricos para encontrar las raíces de ecuaciones que se encuentran en nuestro repositorio"> Sistemas de ecuaciones </a> <br> </li>
-                            <ul class="subindice"> 
-                                <li> <a href="#Eliminacion"> Eliminación-Gaussiana </a> </li>
-                                <li> <a href="#Gauss"> Gauss-Jordan </a> </li>
-                                <li> <a href="#Seidel"> Gauss-Seidel </a> </li> 
-                                <li> <a href="#Jacobi"> Método de Jacobi </a> </li> 
+        <ul class="subindice"> 
+            <li> <a href="#Eliminacion"> Eliminación-Gaussiana </a> </li>
+            <li> <a href="#Gauss"> Gauss-Jordan </a> </li>
+            <li> <a href="#Seidel"> Gauss-Seidel </a> </li> 
+            <li> <a href="#Jacobi"> Método de Jacobi </a> </li> 
           <ul class = "subindice">
             <li> <a href="# Método del Trapecio "> Método del Trapecio </a> <br> </li>
             <li> <a href="# Método de Simpson 1/3 "> Método de Simpson 1/3 </a> <br> </li>
