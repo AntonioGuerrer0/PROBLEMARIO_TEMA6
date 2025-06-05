@@ -30,13 +30,6 @@ Realizado por:
                     </ul>
                          </nav>
                     </font> </header>
-
-# Descripción
-En este documento vamos a ver varios ejercicios sobre los distintos metodos como lo son:
-  <li>1.- Eliminación-Gaussiana</li>
-  <li>2.- Gauss-Jordan</li>
-  <li>3.- Gauss-Seidel</li>
-  <li>4.- Jacobi</li>
   
 # Sobre la materia 
 <h2 align = "center"> <font  size = "+6" > <a name="Competencia de la Asignatura">Competencia de la asignatura</font></a> </h2>
